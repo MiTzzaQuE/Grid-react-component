@@ -91,3 +91,30 @@ export const Intercative: Story = (args) => (
     </Grid>
   </div>
 );
+
+export const Intercative2: Story = (args) => (
+  <div style={{ position: "relative", height: "100vh" }}>
+    <Grid
+      container
+      spacing="sm"
+      alignItems="center"
+      style={{ height: "100%" }}
+      {...args}>
+      <Grid item xs={1}>
+        <Box>Box 11</Box>
+      </Grid>
+
+      <Grid item xs={1}>
+        <Box>Box 22</Box>
+      </Grid>
+
+      <Grid item xs={1}>
+        <Box>Box 33</Box>
+      </Grid>
+
+      <Grid item xs={1}>
+        <Box>Box 44</Box>
+      </Grid>
+    </Grid>
+  </div>
+);
